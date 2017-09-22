@@ -2134,7 +2134,7 @@ var MLoaderLoadImps = function(imps) {
       };
       window.addEventListener('keydown', loadHotKey);
       // append button to dom that will trigger the page load
-      btnLoad = createButton('Load Manga', function(evt) {
+      btnLoad = createButton('Load Manga lol', function(evt) {
         waitAndLoad(imp);
         this.remove();
       }, btnLoadCss);
